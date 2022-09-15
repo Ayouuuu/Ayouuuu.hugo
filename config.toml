@@ -156,7 +156,7 @@ theme = "FixIt"
     # FixIt 0.2.0 | NEW Custom content (HTML format is supported)
     custom = ''
     # FixIt 0.2.0 | NEW whether to show Hugo and theme info
-    hugo = false
+    hugo = true
     # FixIt 0.2.0 | NEW whether to show copyright info
     copyright = true
     # FixIt 0.2.0 | NEW whether to show the author
@@ -330,7 +330,7 @@ theme = "FixIt"
     # FixIt 0.2.13 | NEW Page style ("narrow", "normal", "wide", ...)
     pageStyle = "normal"
     # FixIt 0.2.14 | NEW Gravatar is force-used as the author's avatar
-    gravatarForce = false
+    gravatarForce = true
     # FixIt 0.2.15 | NEW Repost config
     [params.page.repost]
       enable = false
@@ -381,7 +381,7 @@ theme = "FixIt"
       # FixIt 0.2.15 | CHANGED Link for fork & edit
       # url = "/edit/branch-name/subdirectory-name" # base on `params.gitRepo`
       # url = "https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name" # full url
-      url = "https://github.com/Ayouuuu/Ayouuuu.hugo/content/"
+      url = "edit/main/content"
     # FixIt 0.2.0 | NEW Mapbox GL JS config (https://docs.mapbox.com/mapbox-gl-js)
     [params.page.mapbox]
       # access token of Mapbox GL JS
@@ -570,7 +570,7 @@ theme = "FixIt"
       # Publisher info
       [params.page.seo.publisher]
         name = "Ayou"
-        logoUrl = ""
+        logoUrl = "/images/avatar.jpeg"
 
   # FixIt 0.2.5 | NEW TypeIt config
   [params.typeit]
@@ -596,11 +596,11 @@ theme = "FixIt"
   # FixIt 0.2.12 | NEW Watermark config
   # Detail config see https://github.com/Lruihao/watermark#readme
   [params.watermark]
-    enable = false
+    enable = true
     # watermark's text (HTML format is supported)
-    content = '114514'
+    content = 'Ayou10031.cn'
     # watermark's transparency
-    opacity = 0.1
+    opacity = 0.0125
     # parent of watermark's container
     appendTo = '.wrapper>main'
     # watermark's width. unit: px
@@ -620,9 +620,9 @@ theme = "FixIt"
 
   # FixIt 0.2.12 | NEW Busuanzi count
   [params.ibruce]
-    enable = false
+    enable = true
     # Enable in post meta
-    enablePost = false
+    enablePost = true
     # FixIt 0.2.14 | CHANGED FixIt 0.2.15 | DELETED Site creation time
     # The parameter `ibruce.siteTime` is deprecated since v0.2.14, use `footer.siteTime` instead
     # siteTime = '' # e.g. '2019-02-03T19:30:34+08:00'
@@ -691,8 +691,8 @@ theme = "FixIt"
     enable = true
   # FixIt 0.2.14 | NEW GitHub banner in the top-right or top-left corner
   [params.githubCorner]
-    enable = false
-    permalink = "https://github.com/hugo-fixit/FixIt"
+    enable = true
+    permalink = "https://github.com/Ayouuuu/Ayouuuu.hugo"
     title = "View source on GitHub"
     position = "right" # left, right
   # FixIt 0.2.14 | NEW Gravatar config
