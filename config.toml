@@ -39,6 +39,8 @@ theme = "FixIt"
     # 当你将鼠标悬停在此菜单链接上时，将显示的标题
     title = ""
     weight = 1
+    [menu.main.params]
+      icon = "fa-solid fa-archive"
   [[menu.main]]
     identifier = "categories"
     pre = ""
@@ -47,6 +49,8 @@ theme = "FixIt"
     url = "/categories/"
     title = ""
     weight = 2
+    [menu.main.params]
+      icon = "fa-solid fa-th"
   [[menu.main]]
     identifier = "tags"
     pre = ""
@@ -55,6 +59,18 @@ theme = "FixIt"
     url = "/tags/"
     title = ""
     weight = 3
+    [menu.main.params]
+      icon = "fa-solid fa-tags"
+  [[menu.main]]
+    identifier = "friends"
+    pre = ""
+    post = ""
+    name = "友链"
+    url = "/friends/"
+    title = "友情链接"
+    weight = 4
+    [menu.main.params]
+      icon = "fa-solid fa-users"
 
 # -------------------------------------------------------------------------------------
 # Theme Core Configuration Settings
