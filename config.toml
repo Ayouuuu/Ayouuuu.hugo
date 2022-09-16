@@ -736,3 +736,33 @@ theme = "FixIt"
   [module.hugoVersion]
     extended = true
     min = "0.84.0"
+
+# Markup related config in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    ########## necessary configurations ##########
+    # https://github.com/Lruihao/FixIt/issues/43
+    codeFences = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false 
+    ########## necessary configurations ##########
+    guessSyntax = true
+  # Goldmark is from Hugo 0.60 the default library used for Markdown
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      # whether to use HTML tags directly in the document
+      unsafe = true
+  # Table Of Contents settings
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
