@@ -71,6 +71,16 @@ theme = "FixIt"
     weight = 4
     [menu.main.params]
       icon = "fa-solid fa-users"
+  [[menu.main]]
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "建站日志"
+    url = "/about/"
+    title = "建站日志"
+    weight = 5
+    [menu.main.params]
+      icon = "fa-solid fa-user-tie"
 
 # -------------------------------------------------------------------------------------
 # Theme Core Configuration Settings
@@ -766,3 +776,8 @@ theme = "FixIt"
   [markup.tableOfContents]
     startLevel = 2
     endLevel = 6
+
+[author]
+  name = "Ayou"
+  email = "arobcher233@163.com"
+  link = "https://github.com/Ayouuuu"
