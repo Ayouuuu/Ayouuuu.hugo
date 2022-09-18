@@ -133,7 +133,7 @@ theme = "FixIt"
   [params.search]
     enable = true
     # type of search engine ("lunr", "algolia")
-    type = "lunr"
+    type = "algolia"
     # max index length of the chunked content
     contentLength = 4000
     # placeholder of the search bar
@@ -141,15 +141,15 @@ theme = "FixIt"
     # FixIt 0.2.1 | NEW max number of results length
     maxResultLength = 10
     # FixIt 0.2.3 | NEW snippet length of the result
-    snippetLength = 30
+    snippetLength = 50
     # FixIt 0.2.1 | NEW HTML tag name of the highlight part in results
     highlightTag = "em"
     # FixIt 0.2.4 | NEW whether to use the absolute URL based on the baseURL in search index
     absoluteURL = false
     [params.search.algolia]
-      index = ""
-      appID = ""
-      searchKey = ""
+      index = "ayou10031"
+      appID = "RWRS5SSPB1"
+      searchKey = "8f38b8396f2af39af3f74d64e2edb87e"
 
   # Header config
   [params.header]
@@ -781,3 +781,7 @@ theme = "FixIt"
   name = "Ayou"
   email = "arobcher233@163.com"
   link = "https://github.com/Ayouuuu"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "MarkDown"]
