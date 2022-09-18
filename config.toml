@@ -148,8 +148,8 @@ theme = "FixIt"
     absoluteURL = false
     [params.search.algolia]
       index = "ayou10031"
-      appID = "AS6EY6H59Z"
-      searchKey = "0145cbd4ca3ca40a0f26b2b10113149e"
+      appID = "Y3JG8F795B"
+      searchKey = "3c934175601e95c3a919264fc094427f"
 
   # Header config
   [params.header]
