@@ -22,6 +22,10 @@ theme = "FixIt"
 # See: https://fixit.lruihao.cn/theme-documentation-basics/#site-configuration
 # =====================================================================================
 
+# Post frontmatter config
+[frontmatter]
+  lastmod = ["lastmod", ":git", ":fileModTime", ":defalut"]
+
 # -------------------------------------------------------------------------------------
 # Menu Settings
 # See: https://fixit.lruihao.cn/theme-documentation-basics/#menu-advanced-configuration
@@ -80,7 +84,7 @@ theme = "FixIt"
     title = "建站日志"
     weight = 5
     [menu.main.params]
-      icon = "fa-solid fa-user-tie"
+      icon = "fa-solid fa-scroll"
 
 # -------------------------------------------------------------------------------------
 # Theme Core Configuration Settings
