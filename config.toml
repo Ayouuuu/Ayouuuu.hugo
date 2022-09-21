@@ -490,17 +490,17 @@ theme = "FixIt"
       # Valine comment config (https://github.com/xCss/Valine)
       [params.page.comment.valine]
         enable = false
-        appId = ""
-        appKey = ""
-        placeholder = ""
-        avatar = "mp"
+        appId = "q6gLcvJizdOWmiLrhNkc1U2R-9Nh9j0Va"
+        appKey = "hNH4T0icYlZWrI3RO9Jb270D"
+        placeholder = "发表您的偉論！如有必要請填寫邮箱."
+        avatar = "retro"
         meta= ""
         pageSize = 10
-        lang = ""
+        lang = "Zh-CN"
         visitor = true
         recordIP = true
         highlight = true
-        enableQQ = false
+        enableQQ = true
         serverURLs = ""
         # FixIt 0.2.6 | NEW emoji data file name, default is "google.yml"
         # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
@@ -511,7 +511,7 @@ theme = "FixIt"
         commentCount = true # FixIt 0.2.13 | NEW
       # FixIt 0.2.13 | NEW Waline comment config (https://waline.js.org)
       [params.page.comment.waline]
-        enable = false
+        enable = true
         serverURL = ""
         pageview = false # FixIt 0.2.15 | NEW
         emoji = ['//unpkg.com/@waline/emojis@1.0.1/weibo']
