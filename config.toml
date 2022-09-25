@@ -511,7 +511,7 @@ theme = "FixIt"
         commentCount = true # FixIt 0.2.13 | NEW
       # FixIt 0.2.13 | NEW Waline comment config (https://waline.js.org)
       [params.page.comment.waline]
-        enable = true
+        enable = false
         serverURL = ""
         pageview = false # FixIt 0.2.15 | NEW
         emoji = ['//unpkg.com/@waline/emojis@1.0.1/weibo']
