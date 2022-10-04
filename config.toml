@@ -680,9 +680,9 @@ theme = "FixIt"
   # FixIt 0.2.10 | NEW Site SEO config
   [params.seo]
     # image URL
-    image = ""
+    image = "/site-meta.jpg"
     # thumbnail URL
-    thumbnailUrl = ""
+    thumbnailUrl = "/logo.png"
 
   # FixIt 0.2.0 | NEW Analytics config
   [params.analytics]
