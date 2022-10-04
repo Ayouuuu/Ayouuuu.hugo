@@ -76,7 +76,8 @@ theme = "FixIt"
     [menu.main.params]
       icon = "fa-solid fa-users"
   [[menu.main]]
-    identifier = "about"
+    identifier = "log"
+    parent = "about"
     pre = ""
     post = ""
     name = "建站日志"
@@ -85,7 +86,16 @@ theme = "FixIt"
     weight = 5
     [menu.main.params]
       icon = "fa-solid fa-scroll"
-
+  [[menu.main]]
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "关于"
+    url = "/about/"
+    title = "关于"
+    weight = 6
+    [menu.main.params]
+      icon = "fa-solid fa-user-tie"
 # -------------------------------------------------------------------------------------
 # Theme Core Configuration Settings
 # -------------------------------------------------------------------------------------
