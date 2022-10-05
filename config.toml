@@ -249,9 +249,9 @@ theme = "FixIt"
       # FixIt 0.2.14 | CHANGED FixIt 0.2.15 | DELETED The parameter `home.profile.gravatarSite` is deprecated since v0.2.14, use `gravatar.host` instead
       # gravatarSite = "arobcher233@163.com"
       # Gravatar Email for preferred avatar in home page
-      #gravatarEmail = "arobcher233@163.com"
+      gravatarEmail = "arobcher233@163.com"
       # URL of avatar shown in home page
-      avatarURL = "https://gravatar.loli.net/avatar/467dd59b914fd9980108b9f7d143d320?s=96&d=mp"
+      #avatarURL = "https://gravatar.loli.net/avatar/467dd59b914fd9980108b9f7d143d320?s=240&d=mp"
       # FixIt 0.2.7 | CHANGED title shown in home page (HTML format is supported)
       title = "大 BUG 制造者"
       # subtitle shown in home page
