@@ -194,7 +194,29 @@ theme = "FixIt"
   [params.footer]
     enable = true
     # FixIt 0.2.0 | NEW Custom content (HTML format is supported)
-    custom = '<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">本网站由<img src="/upyun.svg" alt="又拍云" width="60" style="vertical-align:bottom">提供CDN加速/云存储服务</a>'
+    custom = """
+    <a href="https://statcounter.com/p12803988/?guest=1" target="_blank">全平台总访问统计</a>
+    <!-- Default Statcounter code for Ayou's Blog
+    https://ayou10031.cn -->
+    <script type="text/javascript">
+    var sc_project=12803988;
+    var sc_invisible=0;
+    var sc_security="72069f07";
+    var scJsHost = "https://";
+    document.write("<sc"+"ript type='text/javascript' src='" +
+    scJsHost+
+    "statcounter.com/counter/counter.js'></"+"script>");
+    </script>
+    <noscript><div class="statcounter"><a title="Web Analytics"
+    href="https://statcounter.com/" target="_blank"><img
+    class="statcounter"
+    src="https://c.statcounter.com/12803988/0/72069f07/0/"
+    alt="Web Analytics"
+    referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+    <!-- End of Statcounter Code -->
+    <br/>
+    <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">本网站由<img src="/upyun.svg" alt="又拍云" width="60" style="vertical-align:bottom">提供CDN加速/云存储服务</a>
+    """
     # FixIt 0.2.0 | NEW whether to show Hugo and theme info
     hugo = false
     # FixIt 0.2.0 | NEW whether to show copyright info
