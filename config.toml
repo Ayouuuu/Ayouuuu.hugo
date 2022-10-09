@@ -243,8 +243,8 @@ theme = "FixIt"
     rss = 10
     # FixIt 0.2.13 | NEW recently updated posts settings
     [params.section.recentlyUpdated]
-      enable = false
-      rss = false
+      enable = true
+      rss = true
       days = 30
       maxCount = 10
 
