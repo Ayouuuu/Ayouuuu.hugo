@@ -195,23 +195,6 @@ theme = "FixIt"
     enable = true
     # FixIt 0.2.0 | NEW Custom content (HTML format is supported)
     custom = """
-    <a href="http://statcounter.com/p12803995/summary/?guest=1" target="_blank">全平台总访问统计</a>
-    <script type="text/javascript">
-    var sc_project=12803995; 
-    var sc_invisible=0; 
-    var sc_security="430ddb35"; 
-    var scJsHost = "https://";
-    document.write("<sc"+"ript type='text/javascript' src='" +
-    scJsHost+
-    "statcounter.com/counter/counter.js'></"+"script>");
-    </script>
-    <noscript><div class="statcounter"><a title="Web Analytics"
-    href="https://statcounter.com/" target="_blank"><img
-    class="statcounter"
-    src="https://c.statcounter.com/12803995/0/430ddb35/0/"
-    alt="Web Analytics"
-    referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
-    <br/>
     <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">本网站由<img src="/upyun.svg" alt="又拍云" width="60" style="vertical-align:bottom">提供CDN加速/云存储服务</a>
     """
     # FixIt 0.2.0 | NEW whether to show Hugo and theme info
