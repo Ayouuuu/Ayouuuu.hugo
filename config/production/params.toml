@@ -1,0 +1,39 @@
+# -------------------------------------------------------------------------------------
+# Theme Core Configuration
+# See: https://fixit.lruihao.cn/theme-documentation-basics/#site-configuration
+# -------------------------------------------------------------------------------------
+
+# FixIt NEW | 0.1.1 which hash function used for SRI, when empty, no SRI is used
+# ("sha256", "sha384", "sha512", "md5")
+fingerprint = "sha256"
+
+# FixIt CHANGED | 0.2.14 Comment config
+[page.comment]
+  enable = true
+  [page.comment.giscus]
+    enable = true
+    repo = "Ayouuuu/Ayouuuu.hugo"
+    repoId = "R_kgDOH9uOKQ"
+    category = "Announcements"
+    categoryId = "DIC_kwDOH9uOKc4CRWFb"
+    mapping = "pathname"
+    reactionsEnabled = "1"
+    emitMetadata = "0"
+    inputPosition = "top" # top, bottom
+    lightTheme = "light"
+    darkTheme = "dark"
+    lazyLoad = true
+
+# FixIt 0.2.12 | NEW Busuanzi count
+[ibruce]
+  enable = true
+  # Enable in post meta
+  # 在文章中开启
+  enablePost = true
+
+# CDN config for third-party library files
+[cdn]
+  # CDN data file name, disabled by default ["jsdelivr.yml", "unpkg.yml", ...]
+  # located in "themes/FixIt/assets/data/cdn/" directory
+  # you can store your own data files in the same path under your project: "assets/data/cdn/"
+  data = "unpkg.yml"

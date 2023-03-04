@@ -1,0 +1,7 @@
+# -------------------------------------------------------------------------------------
+# Permalinks Configuration
+# See: https://gohugo.io/content-management/urls/#permalinks
+# -------------------------------------------------------------------------------------
+
+# posts = ":year/:month/:filename"
+private = "/:sections[1:]/:filename"
