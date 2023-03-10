@@ -109,7 +109,7 @@ disableThemeInject = false
     <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">本网站由<img src="/upyun.svg" alt="又拍云" width="60" style="vertical-align:bottom">提供CDN加速/云存储服务</a>
     """
   # FixIt NEW | 0.2.0 whether to show Hugo and theme info
-  hugo = true
+  hugo = false
   # FixIt NEW | 0.2.0 whether to show copyright info
   copyright = true
   # FixIt NEW | 0.2.0 whether to show the author

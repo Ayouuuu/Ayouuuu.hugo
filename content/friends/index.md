@@ -19,7 +19,7 @@ comment: true
 # 朋友/站点信息例子
 - nickname: Ayouuuuu
   avatar: https://cravatar.cn/avatar/467dd59b914fd9980108b9f7d143d320
-  url: https://ayou10031.cn
+  url: https://ayou10031.com
   description: Try again,do better.
 ```
 
