@@ -19,6 +19,6 @@ summary: "一个向往风和自由、诗与远方的二轮驾驶员的旅行记�
 
 [https://moto-map-9cfv.vercel.app](https://moto-map-9cfv.vercel.app/)   
 
-[https://moto.ayou10031.cn](https://moto.ayou10031.cn/)
+[https://moto.ayou10031.com](https://moto.ayou10031.com/)
 
 :(fa-brands fa-github):[源码](https://github.com/Ayouuuu/MotoMap/)

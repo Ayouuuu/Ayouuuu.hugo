@@ -119,7 +119,7 @@ hugo server -D -e production # 启用预览文章显示、正式环境
 
 之后进入 [Netlify](https://app.netlify.com/) 使用 Github 登陆,新建一个 `Teams` 找到 `Sites`->`Add new site`->`Import an existing project `选择你的 Github 项目，点击 `Deploy site` 即可完成网站搭建，非常的方便！
 
-![image-20220923155133974](https://pic.ayou10031.cn/public/image-20220923155133974.png)
+![image-20220923155133974](/posts/images/image-20220923155133974.png)
 
 ### 自定义域名/HTTPS配置
 
