@@ -197,7 +197,7 @@ disableThemeInject = false
     # whether to show social links
     social = true
     # FixIt NEW | 0.2.0 disclaimer (HTML format is supported)
-    disclaimer = "<a style='color: #b1b1ba;' href='https://moto.ayou10031.cn'>「二轮车驾驶员」</a><a style='color: #b1b1ba;' href='/posts/skate/skatediary/'>「滑手」</a>"
+    disclaimer = "<a style='color: #b1b1ba;' href='https://moto.ayou10031.com'>「二轮车驾驶员」</a><a style='color: #b1b1ba;' href='/posts/skate/skatediary/'>「滑手」</a><a style='color: #b1b1ba;' href='/posts/alto/'>「实习」</a>"
   # Home page posts
   [home.posts]
     enable = true
