@@ -17,7 +17,6 @@ categories:
 ---
 
 {{< center-quote >}}
-
 {{< typeit group=paragraph >}}
 记录滑板日常、大事记、有趣的事情
 {{< /typeit >}}
@@ -25,8 +24,18 @@ categories:
 {{< typeit group=paragraph >}}
 **Enjoy Skate🛹 Life.**
 {{< /typeit >}}
-
 {{< /center-quote >}}
+
+### 2023/6/24
+参加滑板日之后的活动照片，以及`VANS滑手`签名！
+{{< details "图片" >}}
+{{< details "<font color=red>签名视频</font>">}}
+{{<bilibili BV1AX4y1s76m>}}
+{{< /details >}}
+
+![VANS滑手签名](images/1687961158202.webp " ")
+![合照](images/1687961143840.webp " ")
+{{< /details >}}
 
 ### 2022/11/19
 最近几个星期都是很忙，考驾照等等......
