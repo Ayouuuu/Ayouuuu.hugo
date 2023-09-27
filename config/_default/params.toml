@@ -99,20 +99,7 @@ disableThemeInject = false
   enable = true
   # FixIt 0.2.17 | CHANGED Custom content (HTML format is supported)
   # For advanced use, see parameter `params.customFilePath.footer`
-  custom = """
-	<img src="https://visitor-badge.glitch.me/badge?page_id=Ayouuuu-blog" alt="visitor badge"/>
-	<br/>
-	<script>
-	var _hmt = _hmt || [];
-	(function() {
-	  var hm = document.createElement("script");
-	  hm.src = "https://hm.baidu.com/hm.js?3bb23253f84d4bca430756692bc71694";
-	  var s = document.getElementsByTagName("script")[0]; 
-	  s.parentNode.insertBefore(hm, s);
-	})();
-	</script>
-    <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">本网站由<img src="/upyun.svg" alt="又拍云" width="60" style="vertical-align:bottom">提供CDN加速/云存储服务</a>
-    """
+  custom = ''
   # FixIt NEW | 0.2.0 whether to show Hugo and theme info
   hugo = false
   # FixIt NEW | 0.2.0 whether to show copyright info
