@@ -4,7 +4,7 @@ date: 2023-04-06T14:29:20Z
 description: "{{ }}"
 keywords: ["Suzuki","铃木","Alto","奥拓"]
 author: Ayou
-weight: 1
+hiddenFromHomePage: true
 categories:
 - 日记
 ---
