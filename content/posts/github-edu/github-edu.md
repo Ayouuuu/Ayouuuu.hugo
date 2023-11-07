@@ -1,16 +1,11 @@
 ---
 title: "如何秒过Github学生认证白嫖多达82种服务"
-subtitle: ""
 date: 2022-10-27T12:22:03Z
 
 tags:
 - Github
 categories:
 - 总结
-
-resources:
-- name: featured-image
-  src: images/featured-image.png
 ---
 
 > 此篇文章用来记录个人申请学生认证以及帮助同学申请所得出来的经验，希望能够帮助到您！
