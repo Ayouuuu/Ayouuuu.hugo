@@ -4,6 +4,7 @@ subtitle: ""
 date: 2022-09-25T16:45:54Z
 description: "关于我滑板的日常记录"
 summary: "记录滑板日常、大事记、有趣的事情"
+rssFullText: false
 hiddenFromHomePage: true
 keywords:
 - 滑板

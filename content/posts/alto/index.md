@@ -5,6 +5,7 @@ description: "{{ }}"
 keywords: ["Suzuki","铃木","Alto","奥拓"]
 author: Ayou
 hiddenFromHomePage: true
+rssFullText: false
 categories:
 - 日记
 ---

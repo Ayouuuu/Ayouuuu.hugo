@@ -4,6 +4,7 @@ date: 2022-10-23T16:35:18Z
 description: "记录我如何考取C1驾驶证"
 
 hiddenFromHomePage: true
+rssFullText: false
 
 tags:
 - 日记 
