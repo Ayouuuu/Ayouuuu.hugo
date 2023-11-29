@@ -52,6 +52,9 @@ categories:
 ![拍照认证](images/step3.webp " ")
 至此已经完成所有步骤了，点击`Continue`耐心等待即可......
 
+## 其他
+通过 `Github` 认证之后可以直接使用 `Github` 账号登陆 [`Azure`](https://azure.microsoft.com/zh-cn/free/students) 领取微软云的学生认证，如果您以前认证过只需要再次登陆可完成续订,白嫖$100!!!
+
 ## 驳回理由汇总
 下面是我12次申请经历当中被驳回的理由原因，以及解决办法。
 
