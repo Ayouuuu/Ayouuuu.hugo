@@ -14,3 +14,8 @@
   mediaType = "text/plain"
   isPlainText = true
   isHTML = false
+[README]
+  baseName = "readme"
+  mediaType = "text/markdown"
+  isPlainText = true
+  isHTML = false

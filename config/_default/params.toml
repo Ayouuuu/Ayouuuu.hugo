@@ -11,8 +11,6 @@ description = "Ayou's Blog Try again,do better，二轮车驾驶员，向往诗�
 keywords = ["Ayou","Ayou10031","Hugo Blog"]
 # site default theme ("light", "dark", "auto")
 defaultTheme = "auto"
-# public git repo url only then enableGitInfo is true
-gitRepo = "https://github.com/Ayouuuu/Ayouuuu.hugo"
 # FixIt NEW | 0.2.0 date format
 dateFormat = "2006-01-02"
 # website images for Open Graph and Twitter Cards
@@ -24,12 +22,32 @@ externalIcon = true
 # FixIt NEW | 0.2.14 FixIt will, by default, inject a theme meta tag in the HTML head on the home page only.
 # You can turn it off, but we would really appreciate if you don’t, as this is a good way to watch FixIt's popularity on the rise.
 disableThemeInject = false
+# FixIt 0.3.0 | NEW whether to add site title to the title of every page
+# remember to set up your site title in `hugo.toml` (e.g. title = "title")
+withSiteTitle = true
+# FixIt 0.3.0 | NEW title delimiter when the site title is be added to the title of every page
+titleDelimiter = "|"
+# FixIt 0.3.0 | NEW whether to add site subtitle to the title of index page
+# remember to set up your site subtitle by `params.header.subtitle.name`
+indexWithSubtitle = true
+
 
 [author]
   name = "Ayou"
   email = "arobcher233@gmail.com"
   link = "https://github.com/Ayouuuu"
 #  avatar = "/images/avatar.png"
+
+# FixIt 0.3.0 | NEW public Git repository information only then enableGitInfo is true
+[gitInfo]
+  # e.g. "https://github.com/hugo-fixit/docs"
+  repo = "https://github.com/Ayouuuu/Ayouuuu.hugo"
+  branch = "master"
+  # the content directory path relative to the root of the repository
+  dir = "content"
+  # the issue template for reporting issue of the posts
+  # available template params: {title} {URL} {sourceURL}
+  issueTpl = "title=[BUG]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|URL|{URL}|%0A|Filename|{sourceURL}|"
 
 # FixIt NEW | 0.2.0 App icon config
 [app]
@@ -135,6 +153,12 @@ disableThemeInject = false
     statistics = "first"
     visitor = 0
     beian = 0
+    # FixIt 0.3.0 | NEW whether to show Hugo and theme info
+  # FixIt 0.3.0 | 新增 是否显示 Hugo 和主题信息
+  [footer.powered]
+    enable = false
+    hugoLogo = true
+    themeLogo = true
 
 # FixIt NEW | 0.2.0 Section (all posts) page config
 [section]
@@ -284,12 +308,12 @@ disableThemeInject = false
     # the maximum number of lines of displayed code by default
     maxShownLines = 50
   # FixIt NEW | 0.2.14 Post edit
-  [page.edit]
-    enable = true
+  #[page.edit]
+  #  enable = true
     # FixIt 0.2.15 | CHANGED Link for fork & edit
     # url = "/edit/branch-name/subdirectory-name" # base on `params.gitRepo`
     # url = "https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name" # full url
-    url = "/edit/master/content"
+  #  url = "/edit/master/content"
   # FixIt NEW | 0.2.0 Mapbox GL JS config
   [page.mapbox]
     # access token of Mapbox GL JS
