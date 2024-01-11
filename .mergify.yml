@@ -3,7 +3,7 @@ pull_request_rules:
     conditions:
       - author=dependabot[bot]
       - label=dependencies
-      - check-success=Netlify / Redirect rules - ayou10031
+      - check-success=deploy/netlify
     actions:
       merge:
         method: merge
