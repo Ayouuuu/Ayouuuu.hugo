@@ -115,8 +115,8 @@ indexWithSubtitle = true
 
 # FixIt 0.2.18 | NEW Breadcrumb config
 [breadcrumb]
-  enable = false
-  sticky = false
+  enable = true
+  sticky = true
   showHome = false
 # Footer config
 [footer]
